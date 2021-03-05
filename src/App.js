@@ -1,11 +1,11 @@
-import Header from "./components/Header";
 import React from "react";
+import Topnav from "./components/Topnav";
 
 function App() {
 
   return (
     <div className='container'>
-    <Header />
+      <Topnav sections={['Home', 'Projects', 'Courses', 'Contact Me', 'Hire Me']} />
     </div>
   );
 }
