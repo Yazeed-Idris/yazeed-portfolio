@@ -7,13 +7,13 @@ const Button = ({color, text}) => {
 
     return (
         <div>
-            <button onClick={onClick} style={{backgroundColor: color}} className='btn'>{text}</button>
+            <button onClick={onClick} style={{backgroundColor: color}}><a href="https://google.com">{text}</a></button>
         </div>
     )
 }
 
 Button.defaultProps = {
-    color: 'black',
+    color: 'white',
     text: 'Add',
 }
 

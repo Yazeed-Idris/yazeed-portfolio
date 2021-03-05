@@ -1,12 +1,14 @@
 import Button from "./Button";
 
-const Topnav = ({sections}) => {
+const Topnav = () => {
 
     return (
         <div className='top-nav'>
-            {sections.map((section) => {
-                {return <Button text={section} color={'white'}/>}
-            })}
+            <Button text={'Home'}/>
+            <Button text={'Projects'}/>
+            <Button text={'Courses'}/>
+            <Button text={'Contact Me'}/>
+            <Button text={'Hire Me'}/>
         </div>
     )
 }

@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className='container'>
-      <Topnav sections={['Home', 'Projects', 'Courses', 'Contact Me', 'Hire Me']} />
+      <Topnav/>
     </div>
   );
 }
