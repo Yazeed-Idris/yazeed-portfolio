@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-        <div >
+        <div className='about'>
             <h1>Yazeed Idris</h1>
             <p>My name is Yazeed. I am a software engineering student at King Fahd University of Petroleum and
                 Minerals. I am fluent in Java, C#, javascript, programming languages. I am also experienced in Unity

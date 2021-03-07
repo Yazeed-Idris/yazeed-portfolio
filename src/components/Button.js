@@ -1,20 +1,20 @@
 import PropTypes from 'prop-types'
 
-const Button = ({color, text}) => {
+const Button = ({text}) => {
     const onClick = () => {
         console.log('click')
     }
 
     return (
         <div>
-            <button onClick={onClick} style={{backgroundColor: color}}><a href="https://google.com">{text}</a></button>
+            <button className="nav-btn" onClick={onClick}>{text}</button>
         </div>
     )
 }
 
 Button.defaultProps = {
-    color: 'white',
-    text: 'Add',
+    color: 'f2f2f2',
+    text: 'Click',
 }
 
 Button.propTypes = {

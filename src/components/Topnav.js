@@ -6,6 +6,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import { Redirect } from 'react-router-dom';
 
 const Topnav = () => {
 
@@ -31,6 +32,10 @@ const Topnav = () => {
                 <Route path="/hire">
                     <h1>Hire Me</h1>
                 </Route>
+                <Route path="/">
+                    <h1>Welcome</h1>
+                </Route>
+                <Route render={() => <Redirect to={{pathname: "/"}} />}/>
             </Switch>
         </Router>
     )
